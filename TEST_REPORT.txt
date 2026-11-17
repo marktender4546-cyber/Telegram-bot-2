@@ -1,0 +1,23 @@
+REMIND ME — TEKSHIRUV HISOBOTI
+==============================
+
+Natija: Python sintaksis tekshiruvi muvaffaqiyatli.
+Avtomatik testlar: 15 ta muvaffaqiyatli (15/15).
+
+Tekshirilgan holatlar:
+- Nisbiy vaqtlar (masalan, 30m).
+- Mahalliy soat formati va o'tgan vaqt bo'lsa ertangi kunga o'tish.
+- Sana-vaqt formatlarini UTC ga to'g'ri aylantirish.
+- O'tib ketgan sanalarni rad etish.
+- Har kunlik va ish kunlari takrorlanishi.
+- Oylik takrorlanish, jumladan 31-kun -> fevral -> yana 31-kun.
+- SQLite bazaga saqlash va muddati kelgan eslatmalarni topish.
+- Bir martalik eslatma yuborilgandan keyin takroran topilmasligi.
+- Kechiktirish, vaqtni ko'chirish, tahrirlash va oylik anchor kunini saqlash.
+
+Muhim cheklov:
+Ushbu tekshiruv muhitida internet/DNS mavjud bo'lmagani sababli python-telegram-bot
+kutubxonasini PyPI'dan o'rnatib, Telegram bilan haqiqiy tarmoq sinovini o'tkazish
+imkoni bo'lmadi. Windows kompyuterda birinchi start.bat ishga tushishida kerakli
+kutubxonalar internet orqali avtomatik o'rnatiladi. Telegram token kiritilgach,
+botni Telegram ichida sinab ko'rish mumkin.
